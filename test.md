@@ -2,8 +2,8 @@
 ## This is a H2
 # This is a H1
 
-This is a paragraph
+<p> This part is already written in HTML </p>
 
-This is a really really really really really really really really really really really really really really really really really really long paragraph
-
-# This is a H1
+This is a very loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong paragraph
+**This is a very strong paragraph**
+*And this is a very italic paragraph*
