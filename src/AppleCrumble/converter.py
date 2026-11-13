@@ -8,7 +8,7 @@ def convert_lines_to_html(contents : str, tag : str):
 def convert_contents_to_html(contents : str): 
     words = contents.split()
     
-    for i in range(len(words)):
+    for i in range(len(words)): # This is so fucked dude
         if words[i].startswith("***") or words[i].startswith("___"):
             new_word = words[i].removeprefix("***").removeprefix("___")
             words[i] = "<strong><em>" + new_word
@@ -20,7 +20,7 @@ def convert_contents_to_html(contents : str):
             words[i] = "<em>" + new_word
 
         if words[i].endswith("***") or words[i].endswith("___"):
-            new_word = words[i].removeprefix("***").removeprefix("___")
+            new_word = words[i].removesuffix("***").removesuffix("___")
             words[i] =  new_word + "</em></strong>"
         elif words[i].endswith("**"):
             new_word = words[i].removesuffix("**").removesuffix("__")

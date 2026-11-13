@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "AppleCrumble"
+version = "0.1.0"
+description = "A short description of what AppleCrumble does"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+AppleCrumble init = "AppleCrumble.main:init"
+AppleCrumble build = "AppleCrumble.main:build"
