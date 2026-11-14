@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "AppleCrumble"
 version = "0.1.0"
-description = "A short description of what AppleCrumble does"
+description = "AppleCrumble is a simple SSG that converts your markdown into HTML for the browser."
 readme = "README.md"
 requires-python = ">=3.9"
 
